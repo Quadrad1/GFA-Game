@@ -1,0 +1,51 @@
+.contact__block{
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: #fff;
+  margin: auto;
+  padding: 60px 40px;
+}
+.contact{
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 500px;
+}
+input{
+  width: 200px;
+  height: 30px;
+  margin: 10px;
+  color: #2dcb73;
+  font-family: arial;
+  border: 2px solid #D6D6D6;
+  padding: 0 10px;
+}
+textarea{
+  flex-basis: 425px;
+  margin: 10px;
+  border: 2px solid #D6D6D6;
+  color: #2dcb73;
+  font-family: arial;
+  padding: 20px 20px;
+}
+button{
+  margin: 10px;
+  background: #2dcb73;
+  font-size: 20px;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #2dcb73;
+  border-radius: 1px;
+}
+button:hover{
+  background: #fff;
+  color: #2dcb73;
+  cursor: pointer;
+}
+.description{
+  display: flex;
+  flex-basis: 600px;
+  color: #ABABAB;
+  font-family: 'exoThin';
+}
